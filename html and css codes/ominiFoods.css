@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color:#666;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+} 
+
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+
+}
+
+
+header{
+    height:80vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./real2.jpg);
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 20px;
+    height: 15px;
+    width: auto;
+}
+
+.nav-content{
+   display: flex;
+    justify-content: space-between;
+
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.main-nav li{
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 70%;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid orange;
+  
+}
+
+.hero-text-box{
+    margin-top: 110px;
+
+}
+ .btn{
+     display: inline-block;
+     padding: 10px 30px;
+     font-weight: 300;
+     text-decoration: none;
+     border-radius: 200px;
+     border: 1px solid #e67e22;
+ }
+
+ .btn-full{
+     background-color: #e67e22; 
+     color: #fff;
+     margin-right: 10px;
+ }
+
+ .btn-ghost{
+     color:  #e67e22;;
+ }
+
+ .btn-full:hover{
+     background-color: #a5540d;
+
+ }
+
+ .btn-ghost:hover{
+     color: #fff;
+     background-color:#e67e22;
+     
+ }
+
+
+
+
+
+
+
+

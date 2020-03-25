@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+/* .div {
+    height: inherit;
+    width: inherit;
+} */
+
+.main_container {
+    height: 100vh;
+    width: 100%;
+    /* position: relative; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* 
+.div_transformed {
+    height: 250px;
+    width: 200px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+}
+
+.first {
+    background-color: rgba(255, 60, 0, 0.63);
+    transform: rotate(45deg);
+    bottom: 6rem;
+    left: 33rem;
+}
+
+.second {
+    background-color: rgba(226, 226, 14, 0.548);
+    transform: rotate(135deg);
+    left: 31rem;
+    top: 10rem;
+    z-index: -1;
+}
+
+.third {
+    background-color: rgba(34, 215, 221, 0.603);
+    transform: rotate(225deg);
+    right: 31rem;
+    top: 10rem;
+    z-index: 1;
+}
+
+.fourth {
+    background-color: rgba(52, 9, 95, 0.493);
+    transform: rotate(315deg);
+    bottom: 7rem;
+    right: 32rem;
+    z-index: 2;
+}
+
+.fifth {
+    background-color: rgba(0, 255, 85, 0.514);
+    transform: rotate(180deg);
+    top: 8rem;
+}
+
+p {
+    color: black;
+    z-index: 3;
+    position: absolute;
+}
+
+.word {
+    left: 32rem;
+    top: 15.5rem;
+}
+
+.visual_rep {
+    top: 9rem;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+
+.behavior {
+    top: 15.5rem;
+    right: 31rem;
+}
+
+.time {
+    right: 34rem;
+    bottom: 11rem;
+}
+
+.objects {
+    text-align: center;
+    bottom: 9rem;
+    left: 33rem;
+}
+.ixd{
+    color: #fff;
+    font-size: 2em;
+    bottom: 16.5rem;
+        right:40rem;
+
+
+} */
+/* .new {
+    position: absolute;
+} */
+
+.content_holder {
+    position: relative;
+    border: 1px solid black;
+    height: 250px;
+    width: 80%;
+}
+
+.tra {
+    transform: rotate(60deg);
+    position: absolute;
+    border: none;
+    top: 0;
+    left: 3rem;
+    right: 0;
+    /* bottom: 0; */
+    height: 250px;
+    width: 200px;
+    border-radius: 100%;
+    margin: auto;
+    background-color: rgba(185, 187, 51, 0.466);
+}
+
+.tra1 {
+    position: absolute;
+    border: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 250px;
+    width: 200px;
+    border-radius: 100%;
+    margin: auto;
+    background-color: rgba(18, 26, 100, 0.473);
+}
+
+p {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* top: 0; */
+
+}

@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number40{
+    font-size: 4rem;
+    font-weight: bolder;
+    flex-basis: 30%
+
+}
+.div1, .div2, .div3, .div4, .div5{
+    flex-basis: 33%
+}
+p{
+    font-size: 25px;
+}

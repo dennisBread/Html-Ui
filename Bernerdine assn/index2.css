@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border: 1px solid;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_container {
+    height: 100vh;
+    width: 100%;
+    border: 2px solid red;
+    position: relative;
+    background-image: url(./vsco_092914.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      /* filter: grayscale(100%); */
+
+
+}
+
+.left_div {
+    flex-basis: 50%;
+    height: 100%;
+}
+
+.right_div {
+    flex-basis: 50%;
+    height: 100%;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 255, 0.171);
+    /* filter: blur(90%); */
+          filter: opacity(.4);
+
+
+
+}
+
+.center_div {
+    position: absolute;
+    background-color: red;
+    height: 20%;
+    width: 20%;
+    margin: auto;
+}
